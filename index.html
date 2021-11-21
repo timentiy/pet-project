@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Catch the Animal</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch the Animal</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+    <div class="screen">
+      <h1>What is your favourite animal?</h1>
+      <ul class="animal-list">
+        <li>
+          <button class="choose-animal-btn">
+            <p>Dog</p>
+            <img src="http://pngimg.com/uploads/dog/dog_PNG149.png" alt="Dog" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-animal-btn">
+            <p>Cat</p>
+            <img src=http://pngimg.com/uploads/cat/cat_PNG118.png alt="Cat">
+          </button>
+        </li>
+        <li>
+          <button class="choose-animal-btn">
+            <p>Parrot</p>
+            <img
+              src="http://pngimg.com/uploads/parrot/parrot_PNG96546.png"
+              alt="Parrot"
+            />
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        You can do it!!! Believe in yourself! <br />
+        By the way, this game is impossible:)
+      </h5>
+    </div>
+    <script src="script/script.js"></script>
+  </body>
+</html>
